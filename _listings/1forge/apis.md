@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "648546"
 tags: Symbols
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/1forge/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +17,7 @@ apis:
   description: Get a list of currency symbols to use when making calls to the other
     APIs.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3///symbols
   tags: Symbols
   properties:
@@ -30,7 +30,7 @@ apis:
   description: Exchange Rate API, Currency Conversion API and Realtime Forex Quote
     API. Serving realtime tick data for over 500 forex currency pairs and commodities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3/
   tags: Symbols
   properties:
@@ -59,6 +59,8 @@ x-common:
   url: https://1forge.com/register
 - type: x-terms-of-service
   url: https://1forge.com/forex-data-api/terms-of-use
+- type: x-website
+  url: http://1forge.com
 - type: x-website
   url: https://1forge.com
 include: []

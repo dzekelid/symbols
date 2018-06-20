@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Symbols
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,10 +18,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://batsrealtime.xignite.com/xBATSRealTime.json/XigniteBATSRealTime//ListTradedSymbols
-  tags: List, Traded, Symbols
+  tags: Market Data,List, Traded, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listtradedsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listtradedsymbols-get-openapi.md
 - name: Xignite BATS Real Time
   x-api-slug: xignite-bats-real-time
   description: Financial market data on-demand. Xignite financial Web services help
@@ -39,10 +39,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://bonds.xignite.com/xBonds.json/XigniteBonds//ListSymbols
-  tags: List, Symbols
+  tags: Market Data,List, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-get-openapi.md
 - name: Xignite Bonds
   x-api-slug: xignite-bonds
   description: Financial market data on-demand. Xignite financial Web services help
@@ -60,10 +60,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//ListSymbols
-  tags: List, Symbols
+  tags: Market Data,List, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-get-openapi.md
 - name: Xignite Global Historical
   x-api-slug: xignite-global-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -81,10 +81,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindices.xignite.com/xglobalindices.json/XigniteGlobalIndices//GetIndexSymbolMappingsByOldSymbols
-  tags: Index, Symbol, Mappings, Old, Symbols
+  tags: Market Data,Index, Symbol, Mappings, Old, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getindexsymbolmappingsbyoldsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getindexsymbolmappingsbyoldsymbols-get-openapi.md
 - name: Xignite Global Indices
   x-api-slug: xignite-global-indices
   description: Financial market data on-demand. Xignite financial Web services help
@@ -102,10 +102,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindiceshistorical.xignite.com/xglobalindiceshistorical.json/XigniteGlobalIndicesHistorical//GetIndexSymbolMappingsByOldSymbols
-  tags: Index, Symbol, Mappings, Old, Symbols
+  tags: Market Data,Index, Symbol, Mappings, Old, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getindexsymbolmappingsbyoldsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getindexsymbolmappingsbyoldsymbols-get-openapi.md
 - name: Xignite Global Indices Historical
   x-api-slug: xignite-global-indices-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -123,10 +123,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalindicesrealtime.xignite.com/xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime//GetIndexSymbolMappingsByOldSymbols
-  tags: Index, Symbol, Mappings, Old, Symbols
+  tags: Market Data,Index, Symbol, Mappings, Old, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getindexsymbolmappingsbyoldsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getindexsymbolmappingsbyoldsymbols-get-openapi.md
 - name: Xignite Global Indices Real Time
   x-api-slug: xignite-global-indices-real-time
   description: Financial market data on-demand. Xignite financial Web services help
@@ -143,18 +143,18 @@ apis:
   description: This operation returns symbols in this exchange.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.json/XigniteGlobalNews//ListSymbols
-  tags: List, Symbols
+  baseURL: https://globalnews.xignite.com/xGlobalNews.xml///ListSymbols
+  tags: Market Data,List, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-get-openapi.md
 - name: Xignite Global News
   x-api-slug: xignite-global-news
   description: Financial market data on-demand. Xignite financial Web services help
     build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalnews.xignite.com/xGlobalNews.json/XigniteGlobalNews
+  baseURL: https://globalnews.xignite.com/xGlobalNews.xml/
   tags: Symbols
   properties:
   - type: x-openapi-spec
@@ -168,7 +168,7 @@ apis:
   tags: Equity, Option, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getequityoptionbysymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getequityoptionbysymbols-get-openapi.md
 - name: Xignite Global Options Get Extended Equity Option By Symbols
   x-api-slug: xignite-global-options
   description: Returns an array of specific equity extended options.
@@ -178,7 +178,7 @@ apis:
   tags: Extended, Equity, Option, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getextendedequityoptionbysymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getextendedequityoptionbysymbols-get-openapi.md
 - name: Xignite Global Options
   x-api-slug: xignite-global-options
   description: Financial market data on-demand. Xignite financial Web services help
@@ -199,7 +199,7 @@ apis:
   tags: Equity, Option, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getequityoptionbysymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getequityoptionbysymbols-get-openapi.md
 - name: Xignite Global Real Time Options Get Extended Equity Option By Symbols
   x-api-slug: xignite-global-real-time-options
   description: Returns an array of specific equity extended options.
@@ -209,7 +209,7 @@ apis:
   tags: Extended, Equity, Option, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getextendedequityoptionbysymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getextendedequityoptionbysymbols-get-openapi.md
 - name: Xignite Global Real Time Options
   x-api-slug: xignite-global-real-time-options
   description: Financial market data on-demand. Xignite financial Web services help
@@ -227,10 +227,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetSymbols
-  tags: Symbols
+  tags: Market Data,Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/getsymbols-get-openapi.md
 - name: Xignite Historical
   x-api-slug: xignite-historical
   description: Financial market data on-demand. Xignite financial Web services help
@@ -251,7 +251,7 @@ apis:
   tags: List, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listsymbols-get-openapi.md
 - name: Xignite Logos
   x-api-slug: xignite-logos
   description: Financial market data on-demand. Xignite financial Web services help
@@ -272,7 +272,7 @@ apis:
   tags: List, Traded, Symbols
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listtradedsymbols-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/listtradedsymbols-get-openapi.md
 - name: Xignite NASDAQ Last Sale
   x-api-slug: xignite-nasdaq-last-sale
   description: Financial market data on-demand. Xignite financial Web services help
@@ -285,7 +285,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/symbols/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -345,6 +345,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []
