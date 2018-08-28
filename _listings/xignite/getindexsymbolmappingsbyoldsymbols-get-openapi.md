@@ -15,6 +15,80 @@ produces:
 consumes:
 - application/json
 paths:
+  /ListTradedSymbols:
+    get:
+      summary: List Traded Symbols
+      description: Returns all symbols and names that are traded recently
+      operationId: ListTradedSymbols
+      x-api-path-slug: listtradedsymbols-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Traded
+      - Symbols
+  /ListSymbols:
+    get:
+      summary: List Symbols
+      description: Get all symbols in the specified exchange.
+      operationId: postListsymbols
+      x-api-path-slug: listsymbols-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Symbols
+  /GetFutureSymbol:
+    get:
+      summary: Get Future Symbol
+      description: Returns the symbol for a future based on its month and year.
+      operationId: postGetfuturesymbol
+      x-api-path-slug: getfuturesymbol-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Future
+      - Symbol
+  /GetReverseFutureSymbol:
+    get:
+      summary: Get Reverse Future Symbol
+      description: Returns the symbol for a future based on its month and year.
+      operationId: postGetreversefuturesymbol
+      x-api-path-slug: getreversefuturesymbol-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Reverse
+      - Future
+      - Symbol
   /GetIndexSymbolMappingsByOldSymbols:
     get:
       summary: Get Index Symbol Mappings By Old Symbols
@@ -36,6 +110,27 @@ paths:
       - Mappings
       - Old
       - Symbols
+  /GetIndexSymbolMappingByOldSymbol:
+    get:
+      summary: Get Index Symbol Mapping By Old Symbol
+      description: Get index symbol mapping by old symbol.
+      operationId: GetIndexSymbolMappingByOldSymbol
+      x-api-path-slug: getindexsymbolmappingbyoldsymbol-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Index
+      - Symbol
+      - Mapping
+      - Old
+      - Symbol
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
